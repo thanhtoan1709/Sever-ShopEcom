@@ -1,0 +1,18 @@
+INSERT INTO roles(code,value) VALUES ('R1','Admin');
+INSERT INTO roles(code,value) VALUES ('R2','Nhanvien');
+INSERT INTO roles(code,value) VALUES ('R3','User');
+
+////////////////////////////////////////////////////
+categories
+INSERT INTO categories(code_Cate,valueCate) VALUES ('TOP','TOP01');
+INSERT INTO categories(code_Cate,valueCate) VALUES ('BOTTOM','BOTTOM01');
+INSERT INTO categories(code_Cate,valueCate) VALUES ('Outerwear','Outerwear01');
+INSERT INTO categories(code_Cate,valueCate) VALUES ('Handbag','Handbag01');
+/////////////////////
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('BOTTOM','Pants');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('TOP','T-Shirt');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('TOP','Shirt');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('TOP','Jersey');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('TOP','Jacket & Coat');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('Handbag','Gi-lê');
+INSERT INTO sub_categories(codevalue_cat,name_subcategory) VALUES ('Outerwear','Jacket & Coat');
